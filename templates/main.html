@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+  </head>
+  <body>
+    <div class="main-block">
+      <h1>Filtering places</h1>
+      <form action="/result/" method="post">
+        <div class="info">
+          <input type="text" name="latitude" placeholder="Latitude">
+          <input type="text" name="longitude" placeholder="Longitude">
+          <select name="type_query">
+            <option value="" disabled selected>Type of place</option>
+            <option value="tgv_station">TGV station</option>
+            <option value="hospital">Hospital</option>
+            <option value="both">Both</option>
+          </select>
+        </div>
+        <button id="search" href='/result?submitted=true' class="button">Run</button>
+      </form>
+    </div>   
+
+    <script>
+          if (document.location.href.indexOf("submitted=true") > -1){
+            $.dialog({
+                title: 'Results',
+                content: 'Here are the results of your query',
+            });
+        }
+            
+      </script>
+    
+</body>
+</html>
