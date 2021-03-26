@@ -13,10 +13,7 @@ from operator import itemgetter
 
 
 
-def getTrainStationByPosition(latt,long):
-    
-    
-    
+def getTrainStationByPosition(latt, long):
     
     print("PARAM")
     g = rdflib.Graph()
@@ -46,22 +43,20 @@ def getTrainStationByPosition(latt,long):
     
     Html = "<li><b>nomGare</b> — lat: latitude; lon: longitude — d*111 km</li>"
     ToHtml = ""
+
+    Js = "L.marker([longitude, latitude]).addTo(mymap).bindPopup('TGV station<br><b>nomGare</b><br>lat. latitude; lon: longitude<br>d*111 km away');\n"
+    ToJs = ""
+
     response = response[:2]
     for i in range(len(response)):
         ToHtml += "<li><b>" + str(response[i][0]) + "</b> — lat: "  + str(response[i][1]) + "; lon: " + str(response[i][2]) + " — " + str(round(response[i][3]*100)) + " km</li>"
+        ToJs += "L.marker([" + str(response[i][1]) + ", " + str(response[i][2]) + "]).addTo(mymap).bindPopup('TGV station<br><b>" + str(response[i][0]) + "</b><br>lat. " + str(response[i][1]) + "; lon: " + str(response[i][2]) + "<br>d*111 km away');\n"
 
-
-        
-    
-    
     print(ToHtml)
-    
-    
+    print(ToJs)
     
     #print(response[:10])
     return response
-
-#<li><b>nomGare</b> — lat: latitude; lon: longitude — d*111 km</li>
 
 
 getTrainStationByPosition(45,4)
