@@ -8,12 +8,13 @@
     <div class="main-block">
       <div class="main-block">
       <h1>Filtering places</h1>
-        <p>Please enter latitude, longitude and type of the place you are looking for.</p>
+        <p>Please enter latitude, longitude and type of the place you are looking for. You can also specify the departement.</p>
     </div>
       <form action="/result/" method="post">
         <div class="info">
           <input type="text" name="latitude" placeholder="Latitude">
           <input type="text" name="longitude" placeholder="Longitude">
+          <input type="text" name="departement" placeholder="Departement">
           <select name="type_query">
             <option value="" disabled selected>Type of place</option>
             <option value="tgv_station">TGV stations</option>
