@@ -13,20 +13,16 @@ from operator import itemgetter
 
 
 
-def getTrainStationByPosition(latt, long):
+def getTrainStationByPosition(latt, long, departement, type_request):
     
-    print("PARAM")
     g = rdflib.Graph()
     g.namespace_manager.bind('rdf', Namespace('http://www.w3.org/1999/02/22-rdf-syntax-ns#'))
     g.namespace_manager.bind('rdfs', Namespace('http://www.w3.org/2000/01/rdf-schema#'))
     g.namespace_manager.bind('owl', Namespace('http://www.w3.org/2002/07/owl#'))
     g.namespace_manager.bind('tgv', Namespace('http://www.owl-ontologies.com/unnamed.owl#'))
-    g.parse("gares.owl")
+    g.parse("data/gares-tgv/gares.owl")
     query = 'SELECT DISTINCT ?lat ?long ?nomGare  WHERE { ?gare tgv:Latitude ?lat . ?gare tgv:Longitude ?long . ?gare tgv:Nom_Gare ?nomGare }'
-    #queryWithParam = query.replace("param",departementParam)
     res = g.query(query)
-    #res = g.query('SELECT * WHERE { ?x ecole:secteur ?secteur FILTER regex(?secteur, "^Privé")}')
-    #res = g.query('SELECT * WHERE { ?x ecole:code_dep ?code_dep FILTER regex(?code_dep, "^94")}')
     
     response = []
     euclid = []
@@ -35,28 +31,20 @@ def getTrainStationByPosition(latt, long):
        element =  row.asdict()
        response.append([element['nomGare'].toPython(),element['lat'].toPython(),element['long'].toPython()])
     for elt in response:
-        #print("testzoa",elt,elt[1],elt[2])
         euclid.append(sqrt( (latt - elt[1])**2 + (long - elt[2])**2))
     for i in range(len(euclid)):
         response[i].append(euclid[i])
     response = sorted(response, key=itemgetter(3))
     
-    Html = "<li><b>nomGare</b> — lat: latitude; lon: longitude — d*111 km</li>"
     ToHtml = ""
-
-    Js = "L.marker([longitude, latitude]).addTo(mymap).bindPopup('TGV station<br><b>nomGare</b><br>lat. latitude; lon: longitude<br>d*111 km away');\n"
     ToJs = ""
 
-    response = response[:2]
+    response = response[:10]
     for i in range(len(response)):
-        ToHtml += "<li><b>" + str(response[i][0]) + "</b> — lat: "  + str(response[i][1]) + "; lon: " + str(response[i][2]) + " — " + str(round(response[i][3]*100)) + " km</li>"
-        ToJs += "L.marker([" + str(response[i][1]) + ", " + str(response[i][2]) + "]).addTo(mymap).bindPopup('TGV station<br><b>" + str(response[i][0]) + "</b><br>lat. " + str(response[i][1]) + "; lon: " + str(response[i][2]) + "<br>d*111 km away');\n"
+        ToHtml += "<li><b>" + str(response[i][0]) + "</b> — lat: "  + str(response[i][1]) + "; lon: " + str(response[i][2]) + " — " + str(round(response[i][3]*111, 2)) + " km</li>"
+        ToJs += "L.marker([" + str(response[i][1]) + ", " + str(response[i][2]) + "]).addTo(mymap).bindPopup('TGV station<br><b>" + str(response[i][0]) + "</b><br>lat. " + str(response[i][1]) + "; lon: " + str(response[i][2]) + "<br>" + str(round(response[i][3]*111, 2)) + " km away');\n"
 
-    print(ToHtml)
-    print(ToJs)
-    
-    #print(response[:10])
-    return response
+    return (ToHtml, ToJs)
 
 
 getTrainStationByPosition(45,4)
