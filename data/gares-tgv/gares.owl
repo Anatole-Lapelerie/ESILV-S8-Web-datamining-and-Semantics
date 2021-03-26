@@ -1,0 +1,3146 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.owl-ontologies.com/unnamed.owl#"
+  xml:base="http://www.owl-ontologies.com/unnamed.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="TGV"/>
+  <owl:DatatypeProperty rdf:ID="Nom_Gare">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#TGV"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="INSEE_REG">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="#TGV"/>
+  </owl:DatatypeProperty>
+  <owl:FunctionalProperty rdf:ID="Longitude">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="#TGV"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="NOM_REG">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#TGV"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="INSEE_DEP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#TGV"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="NOM_DEP">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#TGV"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="Latitude">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="#TGV"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="ID">
+    <rdfs:domain rdf:resource="#TGV"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <TGV rdf:ID="TGV_Individual_1">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"1"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Aix-en-Provence TGV</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ain</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.097</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.847</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_2">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"2"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bellegarde</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ain</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.114</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5.824</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_3">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"3"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bourg-en-Bresse</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ain</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.196</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5.275</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_4">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"4"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Cluses</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ain</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.171</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5.577</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_5">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"5"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nurieux</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ain</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.181</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5.521</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_6">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"6"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Antibes</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >93</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provence-Alpes-Côte d'Azur</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >6</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Alpes-Maritimes</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.584</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >7.108</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_7">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"7"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Cannes</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >93</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provence-Alpes-Côte d'Azur</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >6</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Alpes-Maritimes</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.653</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >7.146</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_8">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"8"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Menton</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >93</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provence-Alpes-Côte d'Azur</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >6</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Alpes-Maritimes</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.774</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >7.489</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_9">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"9"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nice-Ville</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >93</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provence-Alpes-Côte d'Azur</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >6</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Alpes-Maritimes</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.697</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >7.272</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_10">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"10"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Charleville-Mézières</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >8</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ardennes</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >49.771</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.72</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_11">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"11"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rethel</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >8</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ardennes</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >49.5</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.402</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_12">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"12"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sedan</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >8</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ardennes</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >49.705</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.943</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_13">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"13"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dijon-Ville</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >10</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Aube</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.119</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.789</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_14">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"14"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Carcassonne</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >76</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Occitanie</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >11</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Aude</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.179</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.405</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_15">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"15"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Narbonne</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >76</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Occitanie</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >11</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Aude</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.182</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.026</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_16">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"16"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Arles</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >93</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provence-Alpes-Côte d'Azur</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >13</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bouches-du-Rhône</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.641</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5.071</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_17">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"17"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Avignon TGV</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >93</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provence-Alpes-Côte d'Azur</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >13</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bouches-du-Rhône</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.657</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5.095</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_18">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"18"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Marseille-Saint-Charles</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >93</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provence-Alpes-Côte d'Azur</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >13</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bouches-du-Rhône</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.255</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5.432</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_19">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"19"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Miramas</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >93</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provence-Alpes-Côte d'Azur</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >13</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bouches-du-Rhône</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.643</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5.021</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_20">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"20"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Angoulême</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >16</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Charente</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.655</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.151</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_21">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"21"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Champagne-Ardenne TGV</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >16</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Charente</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.62</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-0.222</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_22">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"22"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >La Rochelle-Ville</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >17</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Charente-Maritime</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.158</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.154</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_23">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"23"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rouen-Rive-Droite</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >17</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Charente-Maritime</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.318</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-0.973</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_24">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"24"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Surgères</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >17</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Charente-Maritime</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.114</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-0.741</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_25">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"25"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Beaune</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >27</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bourgogne-Franche-Comté</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >21</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Côte-d'Or</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.104</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.67</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_26">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"26"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Montbard</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >27</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bourgogne-Franche-Comté</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >21</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Côte-d'Or</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.837</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.364</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_27">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"27"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Guingamp</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >22</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Côtes-d'Armor</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.563</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-3.155</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_28">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"28"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lamballe</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >22</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Côtes-d'Armor</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.439</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-2.538</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_29">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"29"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lannion</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >22</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Côtes-d'Armor</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.744</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-3.472</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_30">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"30"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mâcon-Ville</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >22</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Côtes-d'Armor</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.581</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-2.197</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_31">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"31"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Brieuc</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >22</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Côtes-d'Armor</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.503</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-2.763</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_32">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"32"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Besançon-Viotte</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >27</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bourgogne-Franche-Comté</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >25</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Doubs</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.248</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.026</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_33">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"33"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Frasne</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >27</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bourgogne-Franche-Comté</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >25</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Doubs</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.856</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.149</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_34">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"34"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Montélimar</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >26</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Drôme</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >44.546</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.744</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_35">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"35"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Valence TGV</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >26</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Drôme</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.065</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.891</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_36">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"36"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Valence-Ville</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >26</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Drôme</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >44.933</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.891</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_37">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"37"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Brest</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >29</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Finistère</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.391</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-4.502</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_38">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"38"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Landerneau</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >29</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Finistère</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.45</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-4.253</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_39">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"39"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Quimper</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >29</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Finistère</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.014</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-4.094</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_40">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"40"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Quimperlé</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >29</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Finistère</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.884</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-3.548</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_41">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"41"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rosporden</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >29</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Finistère</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.989</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-3.791</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_42">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"42"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Morlaix</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >29</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Finistère</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.579</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-3.833</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_43">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"43"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nîmes</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >76</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Occitanie</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >30</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gard</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.832</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.386</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_44">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"44"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nîmes-Pont-du-Gard</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >76</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Occitanie</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >30</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gard</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.851</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.37</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_45">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"45"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Meuse TGV</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >76</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Occitanie</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >31</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Haute-Garonne</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.583</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >1.484</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_46">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"46"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Toulouse-Matabiau</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >76</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Occitanie</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >31</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Haute-Garonne</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.61</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >1.447</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_47">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"47"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Arcachon</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >33</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gironde</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >44.662</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.17</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_48">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"48"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bordeaux-Saint-Jean</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >33</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gironde</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >44.838</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-0.57</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_49">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"49"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Facture-Biganos</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >33</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gironde</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >44.65</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-0.956</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_50">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"50"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Libourne</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >33</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gironde</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >44.896</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-0.24</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_51">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"51"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >La Teste</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >33</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gironde</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >44.633</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.133</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_52">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"52"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Agde</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >76</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Occitanie</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >34</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hérault</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.318</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.483</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_53">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"53"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Béziers</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >76</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Occitanie</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >34</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hérault</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.42</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.236</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_54">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"54"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Montpellier-Saint-Roch</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >76</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Occitanie</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >34</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hérault</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.603</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.89</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_55">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"55"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Montpellier-Sud-de-France</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >76</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Occitanie</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >34</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hérault</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.595</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.924</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_56">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"56"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sète</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >76</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Occitanie</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >34</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hérault</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.409</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.698</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_57">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"57"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TGV Haute-Picardie</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >76</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Occitanie</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >34</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hérault</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.394</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.68</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_58">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"58"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dol-de-Bretagne</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >35</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ille-et-Vilaine</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.551</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.738</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_59">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"59"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Plouaret-Trégor</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >35</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ille-et-Vilaine</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.035</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.704</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_60">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"60"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Redon</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >35</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ille-et-Vilaine</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.652</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-2.083</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_61">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"61"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rennes</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >35</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ille-et-Vilaine</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.11</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.684</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_62">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"62"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Malo</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >35</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ille-et-Vilaine</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.657</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.974</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_63">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"63"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vitré</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >35</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ille-et-Vilaine</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.131</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.218</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_64">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"64"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lorraine TGV</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >24</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre-Val de Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >37</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Indre-et-Loire</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.381</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.71</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_65">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"65"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Pierre-des-Corps</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >24</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre-Val de Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >37</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Indre-et-Loire</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.386</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.761</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_66">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"66"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tours</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >24</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre-Val de Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >37</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Indre-et-Loire</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.402</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.696</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_67">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"67"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grenoble</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >38</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Isère</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.177</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5.741</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_68">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"68"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mouchard</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >27</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bourgogne-Franche-Comté</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >39</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Jura</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.978</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5.792</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_69">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"69"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dax</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >40</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Landes</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.709</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.068</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_70">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"70"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vendôme - Villiers-sur-Loir</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >24</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre-Val de Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >41</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Loir-et-Cher</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.799</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >1.036</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_71">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"71"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Montauban-Ville-Bourbon</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >42</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Loire</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.429</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.36</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_72">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"72"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Étienne-Châteaucreux</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >42</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Loire</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.443</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.4</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_73">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"73"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ancenis</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >52</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pays de la Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Loire-Atlantique</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.366</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.184</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_74">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"74"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >La Baule-Escoublac</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >52</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pays de la Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Loire-Atlantique</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.285</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-2.371</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_75">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"75"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Le Croisic</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >52</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pays de la Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Loire-Atlantique</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.287</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-2.51</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_76">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"76"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nantes</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >52</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pays de la Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Loire-Atlantique</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.259</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.529</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_77">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"77"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pornichet</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >52</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pays de la Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Loire-Atlantique</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.252</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-2.314</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_78">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"78"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Le Pouliguen</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >52</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pays de la Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Loire-Atlantique</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.277</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-2.439</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_79">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"79"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Nazaire</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >52</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pays de la Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Loire-Atlantique</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.299</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-2.184</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_80">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"80"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Agen</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >47</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lot-et-Garonne</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >44.206</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.618</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_81">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"81"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Angers-Saint-Laud</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >52</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pays de la Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >49</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Maine-et-Loire</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.473</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-0.552</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_82">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"82"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saumur</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >52</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pays de la Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >49</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Maine-et-Loire</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.263</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-0.073</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_83">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"83"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Châlons-en-Champagne</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >51</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Marne</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.956</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.362</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_84">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"84"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Reims</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >51</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Marne</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >49.245</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.041</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_85">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"85"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vitry-le-François</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >51</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Marne</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.73</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.597</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_86">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"86"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Laval</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >52</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pays de la Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mayenne</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.077</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-0.76</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_87">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"87"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lunéville</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >54</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Meurthe-et-Moselle</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.585</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.483</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_88">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"88"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nancy-Ville</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >54</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Meurthe-et-Moselle</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.703</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.224</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_89">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"89"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bar-le-Duc</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >55</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Meuse</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.756</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5.194</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_90">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"90"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auray</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >56</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Morbihan</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.663</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-2.988</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_91">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"91"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lorient</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >56</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Morbihan</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.759</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-3.384</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_92">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"92"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vannes</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >53</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretagne</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >56</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Morbihan</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.636</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-2.773</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_93">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"93"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Forbach</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >57</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Moselle</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >49.18</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.895</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_94">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"94"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Metz-Ville</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >57</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Moselle</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >49.101</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.155</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_95">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"95"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sarrebourg</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >57</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Moselle</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.735</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >7.052</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_96">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"96"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Thionville</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >57</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Moselle</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >49.362</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.144</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_97">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"97"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Croix - Wasquehal</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >59</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nord</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >50.678</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.135</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_98">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"98"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Douai</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >59</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nord</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >50.39</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.09</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_99">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"99"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dunkerque</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >59</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nord</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >51.046</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.389</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_100">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"100"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hazebrouck</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >59</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nord</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >50.738</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.726</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_101">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"101"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lille-Europe</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >59</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nord</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >50.641</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.074</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_102">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"102"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lille-Flandres</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >59</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nord</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >50.628</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.056</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_103">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"103"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Roubaix</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >59</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nord</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >50.701</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.17</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_104">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"104"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tourcoing</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >59</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nord</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >50.718</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.141</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_105">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"105"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Valenciennes</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >59</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nord</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >50.342</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.517</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_106">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"106"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Boulogne-Ville</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >60</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Oise</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >49.607</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.707</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_107">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"107"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Arras</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >62</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pas-de-Calais</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >50.29</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.778</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_108">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"108"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Béthune</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >62</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pas-de-Calais</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >50.517</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.636</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_109">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"109"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Calais - Fréthun</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >62</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pas-de-Calais</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >50.935</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >1.85</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_110">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"110"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Calais-Ville</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >62</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pas-de-Calais</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >50.43</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.063</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_111">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"111"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Étaples - Le Touquet</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >62</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pas-de-Calais</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >50.525</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >1.589</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_112">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"112"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lens</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >62</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pas-de-Calais</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >50.419</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.027</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_113">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"113"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rang-du-Fliers - Verton</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >62</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pas-de-Calais</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >50.414</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >1.619</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_114">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"114"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bayonne</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >64</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pyrénées-Atlantiques</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.503</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.443</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_115">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"115"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Biarritz</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >64</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pyrénées-Atlantiques</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.472</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.555</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_116">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"116"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hendaye</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >64</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pyrénées-Atlantiques</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.355</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.774</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_117">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"117"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Orthez</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >64</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pyrénées-Atlantiques</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.491</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-0.768</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_118">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"118"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pau</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >64</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pyrénées-Atlantiques</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.295</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-0.35</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_119">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"119"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Jean-de-Luz - Ciboure</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >64</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pyrénées-Atlantiques</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.381</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.676</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_120">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"120"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lourdes</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >76</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Occitanie</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >65</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hautes-Pyrénées</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.095</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-0.049</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_121">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"121"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tarbes</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >76</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Occitanie</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >65</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hautes-Pyrénées</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.232</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.071</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_122">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"122"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Perpignan</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >76</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Occitanie</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >66</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pyrénées-Orientales</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >42.697</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.888</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_123">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"123"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saverne</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >67</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bas-Rhin</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.744</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >7.359</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_124">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"124"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sélestat</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >67</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bas-Rhin</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.265</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >7.441</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_125">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"125"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Strasbourg-Ville</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >67</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bas-Rhin</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.561</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >7.76</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_126">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"126"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Colmar</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >68</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Haut-Rhin</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.077</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >7.361</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_127">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"127"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mulhouse-Ville</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >68</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Haut-Rhin</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.746</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >7.34</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_128">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"128"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Besançon Franche-Comté TGV</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >69</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rhône</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.985</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.706</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_129">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"129"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lyon-Part-Dieu</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >69</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rhône</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.759</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.841</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_130">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"130"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lyon-Perrache</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >69</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rhône</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.749</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.828</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_131">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"131"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lyon-Saint-Exupéry TGV</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >69</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rhône</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.758</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.828</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_132">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"132"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Marne-la-Vallée - Chessy</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >69</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rhône</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.888</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.621</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_133">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"133"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris-Gare-de-Lyon</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >69</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rhône</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.78</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.804</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_134">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"134"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dole-Ville</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >27</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bourgogne-Franche-Comté</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >70</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Haute-Saône</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.439</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5.589</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_135">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"135"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Chalon-sur-Saône</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >27</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bourgogne-Franche-Comté</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >71</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saône-et-Loire</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.789</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.841</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_136">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"136"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Le Creusot - Montceau - Montchanin</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >27</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bourgogne-Franche-Comté</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >71</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saône-et-Loire</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.669</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.377</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_137">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"137"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mâcon-Loché TGV</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >27</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bourgogne-Franche-Comté</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >71</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saône-et-Loire</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.277</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.784</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_138">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"138"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Le Mans</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >52</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pays de la Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >72</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sarthe</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.999</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.192</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_139">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"139"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sablé-sur-Sarthe</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >52</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pays de la Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >72</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sarthe</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.837</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-0.329</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_140">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"140"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Aime-La Plagne</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >73</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Savoie</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.573</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.606</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_141">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"141"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Aix-les-Bains-Le Revard</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >73</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Savoie</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.69</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5.919</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_142">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"142"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Albertville</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >73</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Savoie</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.659</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.384</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_143">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"143"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bourg-Saint-Maurice</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >73</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Savoie</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.573</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.828</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_144">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"144"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Chambéry - Challes-les-Eaux</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >73</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Savoie</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.559</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5.975</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_145">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"145"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Landry</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >73</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Savoie</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.576</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.736</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_146">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"146"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Modane</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >73</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Savoie</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.201</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.671</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_147">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"147"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Moûtiers - Salins - Brides-les-Bains</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >73</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Savoie</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.452</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.567</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_148">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"148"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Avre - La Chambre</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >73</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Savoie</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.356</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.304</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_149">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"149"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Jean-de-Maurienne - Vallée de l'Arvan</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >73</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Savoie</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.272</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.352</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_150">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"150"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Annecy</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >74</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Haute-Savoie</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.898</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.119</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_151">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"151"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Annemasse</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >74</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Haute-Savoie</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.185</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.242</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_152">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"152"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Évian-les-Bains</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >74</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Haute-Savoie</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.398</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.602</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_153">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"153"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Gervais-les-Bains-Le Fayet</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >74</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Haute-Savoie</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.868</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.682</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_154">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"154"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sallanches - Combloux - Megève</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >74</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Haute-Savoie</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >45.901</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.643</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_155">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"155"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Thonon-les-Bains</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Auvergne-Rhône-Alpes</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >74</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Haute-Savoie</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.374</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.485</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_156">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"156"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris-Est</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >11</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Île-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.871</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.395</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_157">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"157"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris-Montparnasse</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >11</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Île-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.838</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.317</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_158">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"158"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris-Nord</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >11</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Île-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.881</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.356</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_159">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"159"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Le Havre</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >28</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Normandie</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >76</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Seine-Maritime</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >49.505</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.174</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_160">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"161"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mantes-la-Jolie</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >11</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Île-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >78</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Yvelines</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.994</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >1.721</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_161">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"162"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Versailles-Chantiers</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >11</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Île-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >78</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Yvelines</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.797</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.136</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_162">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"163"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Niort</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >79</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Deux-Sèvres</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.319</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-0.458</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_163">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"164"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Maixent (Deux-Sèvres)</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >79</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Deux-Sèvres</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.409</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-0.205</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_164">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"165"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Amiens</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >32</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hauts-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >80</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Somme</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >49.9</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.289</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_165">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"166"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Les Arcs - Draguignan</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >93</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provence-Alpes-Côte d'Azur</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >83</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Var</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.504</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.483</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_166">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"167"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hyères</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >93</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provence-Alpes-Côte d'Azur</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >83</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Var</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.09</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.123</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_167">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"168"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Raphaël-Valescure</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >93</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provence-Alpes-Côte d'Azur</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >83</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Var</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.441</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.776</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_168">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"169"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Toulon</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >93</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provence-Alpes-Côte d'Azur</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >83</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Var</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >43.133</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5.964</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_169">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"170"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Avignon-Centre</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >93</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provence-Alpes-Côte d'Azur</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vaucluse</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >44.046</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >5.031</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_170">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"171"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Orange</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >93</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provence-Alpes-Côte d'Azur</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >84</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vaucluse</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >44.14</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >4.812</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_171">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"172"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >La Roche-sur-Yon</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >52</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pays de la Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >85</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vendée</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.67</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.432</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_172">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"173"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Les Sables-d'Olonne</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >52</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pays de la Loire</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >85</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vendée</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.479</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >-1.758</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_173">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"174"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Châtellerault</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >86</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vienne</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.796</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.525</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_174">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"175"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Futuroscope</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >86</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vienne</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.659</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.362</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_175">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"176"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Poitiers</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >75</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nouvelle-Aquitaine</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >86</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vienne</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >46.579</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.335</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_176">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"177"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Épinal</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >88</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vosges</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.175</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.45</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_177">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"178"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Remiremont</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >88</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vosges</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.006</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.604</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_178">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"179"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Dié-des-Vosges</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >88</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vosges</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.293</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.962</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_179">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"180"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Michel - Valloire</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >44</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grand Est</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >88</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vosges</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.157</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.134</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_180">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"181"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Belfort - Montbéliard TGV</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >27</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bourgogne-Franche-Comté</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >90</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Territoire de Belfort</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >47.637</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >6.858</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_181">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"182"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Massy - Palaiseau</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >11</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Île-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >91</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Essonne</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.731</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.243</Longitude>
+  </TGV>
+  <TGV rdf:ID="TGV_Individual_182">
+    <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">"183"</ID>
+    <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Massy TGV</Nom_Gare>
+    <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >11</INSEE_REG>
+    <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Île-de-France</NOM_REG>
+    <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >91</INSEE_DEP>
+    <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Essonne</NOM_DEP>
+    <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.736</Latitude>
+    <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.291</Longitude>
+  </TGV>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 1.3, Build 225.4)  http://protege.stanford.edu -->

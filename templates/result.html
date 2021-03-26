@@ -13,7 +13,7 @@
     <div class="main-block">
         <h1>Results</h1>
         <p>Here are the results for what you're looking for.<br><b>📍 {{type_text}}</b> — lat: {{latitude}}; lon: {{longitude}}<br>
-          <ul><li><b>Gare Paris Montparnasse</b> — lat: 49.365; lon: 2.231 — 1.7 km away</li><li><b>Gare Paris Montparnasse</b> — lat: 49.365; lon: 2.231 — 1.7 km away</li>{{output_text}}</ul></p>
+          <ul>{{output_text|safe}}</ul></p>
     </div>
     <div id="mapid" style="width: 600px; height: 400px;"></div>
     <script>
@@ -32,14 +32,8 @@
         fillColor: '#f03',
         fillOpacity: 0.2
       }).addTo(mymap).bindPopup("Here's where you are");
-
-      L.marker([51.5, -0.09]).addTo(mymap)
-        .bindPopup("TGV station<br><b>Gare Paris Saint-Lazare</b><br>lat. 51.1; lon: -0.09<br>1.7 km away");
-
-      L.marker([51.9, -0.00]).addTo(mymap)
-        .bindPopup("TGV station<br><b>Gare Paris Saint-Lazare</b><br>lat. 51.1; lon: -0.09<br>1.7 km away");
       
-      {{output_map}}
+      {{output_map|safe}}
 
       var popup = L.popup();
     </script>

@@ -1,0 +1,2297 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.owl-ontologies.com/unnamed.owl#"
+  xml:base="http://www.owl-ontologies.com/unnamed.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="IDF_Univ"/>
+  <owl:DatatypeProperty rdf:ID="latitude">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="#IDF_Univ"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="CP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#IDF_Univ"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="nom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#IDF_Univ"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="dep">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#IDF_Univ"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:DatatypeProperty>
+  <owl:FunctionalProperty rdf:ID="longitude">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="#IDF_Univ"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="commune">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#IDF_Univ"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="type">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#IDF_Univ"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_1">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Jacques Amyot</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77011</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Melun</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >77 - Seine-et-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.65958</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.5462</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_2">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ADERE Institut de formation en ergotherapie</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75020</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.40522</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8584</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_3">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IUT d'Evry (site Bretigny - GTE)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut universitaire de technologie</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91220</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretigny-sur-Orge</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >91 - Essonne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.308298</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.619561</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_4">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee prive Carcado Saisseval</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75006</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.32883</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8454</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_5">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Graduate School Sociologie et science politique</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unite de formation et de recherche</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91400</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saclay</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >91 - Essonne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.1718</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.73</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_6">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole nationale superieure de creation industrielle Les Ateliers</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole d'art</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75011</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.36909</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8586</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_7">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CFA Afanem</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94140</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Alfortville</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >94 - Val-de-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.42466</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7865</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_8">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Madeleine Vionnet</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee professionnel</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93140</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bondy</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >93 - Seine-Saint-Denis</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.47433</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9043</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_9">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut d'etudes des relations internationales</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75017</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.2381665</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.883657</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_10">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Jean-Paul II-Annexe du lycee Notre-Dame de St-Germain-en-Laye</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78500</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sartrouville</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >78 - Yvelines</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.1715763</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9510334</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_11">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole departementale de theâtre</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole d'art</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91021</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Evry-Courcouronnes</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >91 - Essonne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.4778094</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.6110594</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_12">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CFA ISIFA</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis, Petite ecole de commerce</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92130</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Issy-les-Moulineaux</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.27662</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8273</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_13">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers du Centre hospitalier du sud Seine-et-Marne</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77305</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Fontainebleau</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >77 - Seine-et-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.69783</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.4121</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_14">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Studio ESCA (Ecole superieure de comediens par l'alternance)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92600</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Asnières-sur-Seine</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.28974</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9111</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_15">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Graduate School education, formation, enseignement</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unite de formation et de recherche</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91400</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saclay</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >91 - Essonne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.1530199050903</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.710333893477</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_16">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IUT de Ville d'Avray (Nanterre)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut universitaire de technologie</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92000</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nanterre</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.20911</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9048</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_17">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Sainte-Marie de Neuilly</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92200</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Neuilly-sur-Seine</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.28111</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8853</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_18">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Notre-Dame de Bury</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">95580</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Margency</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >95 - Val-d'Oise</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.28225</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >49.0029</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_19">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grenoble Ecole de Management</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Petite ecole de commerce</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75016</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.2727457</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8552629</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_20">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole superieure d'ingenieurs de Paris Est Creteil</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole d'ingenieurs</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94000</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Creteil</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >94 - Val-de-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.443659</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.794966</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_21">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut Nemo</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75013</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.3119396</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8208016</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_22">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers-hôpital Emile Roux (AP)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94456</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Limeil-Brevannes</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >94 - Val-de-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.48302</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7503</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_23">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee polyvalent Saint Leon</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91100</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Corbeil-Essonnes</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >91 - Essonne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.4826</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.6092</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_24">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CFA Promotrans Paris</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75009</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.3602259</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9163177</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_25">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sup Tertiaire</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75010</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.35154</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8753</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_26">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers C. Claudel - Centre hospitalier Victor Dupouy</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">95107</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Argenteuil</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >95 - Val-d'Oise</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.23512</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9444</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_27">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee François Villon</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75014</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.30581</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8263</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_28">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ecole speciale des travaux publics du bâtiment et de l'industrie</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole d'ingenieurs</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94230</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Cachan</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >94 - Val-de-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.3311045</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7941718</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_29">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Sainte-Geneviève</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78000</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Versailles</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >78 - Yvelines</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.15504</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8026</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_30">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers du Centre hospitalier</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77700</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Serris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >77 - Seine-et-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.780814</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.855936</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_31">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Jules Ferry</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75009</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.32909</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8841</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_32">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IPAG Business School</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grande ecole de commerce, Petite ecole de commerce</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75006</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.33121</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8544</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_33">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IUT de Paris Diderot (site Pajol)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut universitaire de technologie</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75018</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.356884</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.844877</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_34">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CFA AFORP - site de Mantes-la-Ville</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78711</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mantes-la-Ville</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >78 - Yvelines</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >1.70849</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.982</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_35">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Sainte-Marie</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92160</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Antony</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.29902</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7538</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_36">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers du Centre hospitalier Leon-Binet</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77488</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provins</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >77 - Seine-et-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.30204</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.5455</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_37">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CFA Faculte des metiers de l'Essonne - site d'Evry</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis, Petite ecole de commerce</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91000</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Evry-Courcouronnes</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >91 - Essonne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.45731</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.6226</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_38">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Louise Michel</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92000</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nanterre</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.19358</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8894</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_39">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Fondation EFOM Boris Dolto</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75015</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.28727</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8434</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_40">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Auguste Blanqui</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93400</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Ouen</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >93 - Seine-Saint-Denis</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.33327</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9033</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_41">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Paul Eluard</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93200</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Denis</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >93 - Seine-Saint-Denis</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.36449</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9413</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_42">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Plus Values site Paris Ouest</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75008</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.30303</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.876</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_43">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole IPSSI</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75012</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.38841</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8485</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_44">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >European Communication School</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75016</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.2782285</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8565406</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_45">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >American University of Paris</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75007</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.31051</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8616</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_46">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole superieure de genie informatique - Reseau GES</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75012</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.38372</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.878121</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_47">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut catholique d'arts et metiers - site de Paris-Senart - ICAM apprentissage</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole d'ingenieurs</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77127</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lieusaint</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >77 - Seine-et-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.551107</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.631195</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_48">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CFA couverture plomberie</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94140</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Alfortville</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >94 - Val-de-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.42466</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7865</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_49">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Progress Sante</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75010</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.36828</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8793</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_51">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LP Turquetil</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee professionnel</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75011</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.39283</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8522</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_52">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Langevin Wallon</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94500</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Champigny-sur-Marne</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >94 - Val-de-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.49748</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8164</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_53">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers hôpital Abel Leblanc</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77527</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Coulommiers</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >77 - Seine-et-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.09636</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8247</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_54">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >UFR droit economie gestion</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unite de formation et de recherche</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92330</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sceaux</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.2850167751312</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.781546646433</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_55">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CFA CAMAS</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93297</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tremblay-en-France</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >93 - Seine-Saint-Denis</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.5717</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9673</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_56">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CFAI Mecavenir</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92800</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Puteaux</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.24312</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8825</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_57">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CFA de l'Institut National Superieur des Technologies avancees en informatique et comptabilite</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75002</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.37432</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8672</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_58">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Pierre Mendès France</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77176</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Savigny-le-Temple</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >77 - Seine-et-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.57648</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.5965</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_59">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers - Hôpital Foch</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92151</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Suresnes</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.22006</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8719</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_60">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Frederic Mistral</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94260</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Fresnes</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >94 - Val-de-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.32871</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7612</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_61">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee general et technologique Clement Ader</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77220</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tournan-en-Brie</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >77 - Seine-et-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.74956</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7428</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_62">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee prive Charles Peguy</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75011</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.37539</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8644</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_63">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee prive Fenelon Sainte-Marie La Plaine Monceau</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75008</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.31638</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8792</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_64">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >EMLyon Business School programme Global BBA</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grande ecole de commerce</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75012</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.3706609</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8453648</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_65">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Claude Nicolas Ledoux</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94307</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vincennes</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >94 - Val-de-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.4319121</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8499678</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_66">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers - Centre hospitalier Versailles</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78000</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Versailles</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >78 - Yvelines</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.12399</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8165</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_67">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >UFR Geographie histoire et sciences de la societe</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unite de formation et de recherche</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75013</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.38282</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8267</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_68">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Jacques Brel</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93120</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >La Courneuve</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >93 - Seine-Saint-Denis</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.40033</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9296</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_69">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Graduate School Sciences de l'ingenierie et des systèmes</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unite de formation et de recherche</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91400</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saclay</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >91 - Essonne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.1715</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.73</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_70">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole superieure des ressources humaines</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur, Petite ecole de commerce</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75015</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.3016592</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8353966</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_71">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers - Centre hospitalier Rene Dubos</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">95301</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pontoise</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >95 - Val-d'Oise</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.09336</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >49.0616</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_72">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut d'etudes judiciaires Henri Motulsky</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unite de formation et de recherche</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92001</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nanterre</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.208814</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.90474</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_73">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers Bichat Claude Bernard (AP)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75018</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.33194</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8975</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_74">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers du Centre hospitalier departemental Stell</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92500</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rueil-Malmaison</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.19068</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8832</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_75">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >L'Institut des etudes comptables</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78059</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Montigny-le-Bretonneux</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >78 - Yvelines</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.0163</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7764</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_76">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Neoma Business School</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grande ecole de commerce</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75009</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.328906</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8778368</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_77">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers - hôpital Ambroise Pare (AP)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92104</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Boulogne-Billancourt</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.2345</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8477</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_78">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IUT d'Evry (site Evry - Romero - TCE)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut universitaire de technologie</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91000</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Evry-Courcouronnes</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >91 - Essonne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.4295124</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.6230733</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_79">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole INFA</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94736</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nogent-sur-Marne</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >94 - Val-de-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.48684</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8423</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_80">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C3 CFA</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92160</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Antony</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.316747</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.770437</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_81">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut national de podologie</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75001</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.33113</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8661</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_82">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de gestion et d'etudes financières</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92800</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Puteaux</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.2838983</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.891311</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_83">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut europeen de formation au tourisme</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur, Petite ecole de commerce</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92800</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Puteaux</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.2381665</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8868387</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_84">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Turgot</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75003</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.35862</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8661</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_85">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers - hôpital Pitie-Salpêtrière (AP)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75013</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.36319</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8402</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_86">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Gustave Eiffel</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93220</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gagny</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >93 - Seine-Saint-Denis</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.5422</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8892</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_87">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Samuel Beckett</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77260</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >La Ferte-sous-Jouarre</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >77 - Seine-et-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >3.13195</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9438</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_88">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Jacques Decour</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75009</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.34341</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8815</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_89">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SCIENCES-U EFAB Paris, ecole superieure Immobilier et Ressources Humaines</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92120</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Montrouge</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.30929</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8165</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_90">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole internationale d'esthetique Elysees Marbeuf</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75008</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.31196</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8733</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_91">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ITESCIA Coding Factory - Campus Cergy</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">95000</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Cergy</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >95 - Val-d'Oise</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.07895</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >49.0398</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_92">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Teilhard de Chardin</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94106</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Maur-des-Fosses</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >94 - Val-de-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.47141</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8127</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_93">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Graduate School Physique</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unite de formation et de recherche</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91400</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saclay</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >91 - Essonne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.1532742</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7104784</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_94">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee polyvalent Leonard de Vinci</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77000</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Melun</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >77 - Seine-et-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.65908</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.5524</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_95">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut superieur de reeducation psychomotrice</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75015</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.28867</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8475</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_96">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers - Centre hospitalier Barthelemy Durand</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91152</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Etampes</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >91 - Essonne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.15523</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.446</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_97">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation paramedicale et sociale de la Croix Saint-Simon</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93100</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Montreuil</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >93 - Seine-Saint-Denis</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.408613</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.853143</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_98">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut catholique d'arts et metiers - site de Paris-Senart - ICAM integre</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole d'ingenieurs</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77127</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lieusaint</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >77 - Seine-et-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.5624680999999</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.6252085</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_99">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Albert Schweitzer</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93342</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Le Raincy</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >93 - Seine-Saint-Denis</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.51118</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.899</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_100">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Jean Vilar</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77100</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Meaux</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >77 - Seine-et-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.89438</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9553</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_101">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Saint-Charles</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91200</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Athis-Mons</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >91 - Essonne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.39097</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7094</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_102">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >UFR d'administration et echanges internationaux</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unite de formation et de recherche</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94010</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Creteil</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >94 - Val-de-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.44409</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7873</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_103">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee prive Saint-Louis de Gonzague</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75116</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.28548</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8596</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_104">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AFIPE CFA vente et commerce</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78300</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Poissy</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >78 - Yvelines</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.0353</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9271</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_105">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Claude Monet</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75013</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.36234</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8274</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_106">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CFA AFORP - site d'Issy-les-Moulineaux</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92130</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Issy-les-Moulineaux</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.27614</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8187</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_107">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers Françoise Dolto de l'hôpital Simone Veil</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">95600</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Eaubonne</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >95 - Val-d'Oise</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.27261</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >49.0017</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_108">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Graduate School Health and Drug Sciences</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unite de formation et de recherche</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91400</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saclay</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >91 - Essonne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.1532742</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7104784</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_109">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >UFR de lettres et sciences humaines</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unite de formation et de recherche</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">95011</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Cergy</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >95 - Val-d'Oise</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.07494</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >49.0383</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_110">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Claude Bernard</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75016</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.25494</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.842</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_111">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut national superieur du professorat et de l'education de Versailles (site de Saint-Germain)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut national superieur du professorat et de l'education</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78100</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Germain-en-Laye</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >78 - Yvelines</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.070438</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.900271</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_112">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Graduate School Life Sciences and Health</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unite de formation et de recherche</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91400</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saclay</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >91 - Essonne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.1532742</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7104784</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_113">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91360</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Epinay-sur-Orge</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >91 - Essonne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.32003</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.6718</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_114">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >UFR droit, economie, licence, gestion (cycle licence)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unite de formation et de recherche</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75006</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.3338651</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8434094</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_115">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ingenieur Energetique (Isupfere)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole d'ingenieurs</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94140</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Alfortville</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >94 - Val-de-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.425468</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7867938</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_116">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IUT de Ville d'Avray</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut universitaire de technologie</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92410</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ville-d'Avray</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.19894</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8254</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_117">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hitema, ecole des hautes etudes en informatique en alternance</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92130</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Issy-les-Moulineaux</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.2557324</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8209892</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_118">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers du Centre hospitalier</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77100</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Meaux</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >77 - Seine-et-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.8846</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9678</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_119">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Skale Business School</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92160</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Antony</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.3166496</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7703295</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_120">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers - hôpital Louis Mourier (AP)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92700</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Colombes</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.23583</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.926</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_121">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee François Arago</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94190</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Villeneuve-Saint-Georges</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >94 - Val-de-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.45727</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7304</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_122">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole superieure des metiers de l'image, du son et de la creation 2D 3D</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole d'art</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92240</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Malakoff</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.30036</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8215</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_123">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IUT d'Evry (site Bretigny - GEA)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut universitaire de technologie</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91220</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bretigny-sur-Orge</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >91 - Essonne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.307395</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.621019</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_124">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CFA Ecole Superieure des Systèmes de Management ESSYM - Rambouillet</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78120</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rambouillet</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >78 - Yvelines</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >1.82958</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.6396</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_125">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers du Centre hospitalier</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77875</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Montereau-Fault-Yonne</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >77 - Seine-et-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.95065</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.3836</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_126">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CFA Ducretet</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92110</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Clichy</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.31779</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9077</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_127">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers - Bicêtre (AP)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94270</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Le Kremlin-Bicêtre</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >94 - Val-de-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.35795</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8099</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_128">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CFA des commerces de l'alimentation</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75018</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.36343</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8945</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_129">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers du Groupe Hospitalier Paul Guiraud</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94806</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Villejuif</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >94 - Val-de-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.35998</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7908</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_130">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers Jean-Baptiste Pussin</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94410</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Maurice</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >94 - Val-de-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.42906</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.818</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_131">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IUT de Mantes en Yvelines</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut universitaire de technologie</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78200</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mantes-la-Jolie</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >78 - Yvelines</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >1.71019</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9965</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_132">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sup de Pub - groupe Inseec</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75015</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.28867</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8513</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_133">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CESCF - EPEC (groupe ICOGES)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75015</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.29088</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8383</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_134">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ISCPA Paris - Institut des medias</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75010</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.36572</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8798</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_135">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IICP Institut international de communication de Paris</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75013</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.37314</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8569</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_136">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Faculte libre de droit Paris</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92130</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Issy-les-Moulineaux</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.2745412392521</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.818989521555</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_137">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut Saint Pie X</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75006</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.32849</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8508</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_138">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Elisa Lemonnier</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75012</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.40951</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8366</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_139">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Observatoire de Versailles Saint-Quentin-en-Yvelines (OVSQ)</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unite de formation et de recherche</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78280</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Guyancourt</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >78 - Yvelines</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.04489</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7797</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_140">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation en soins infirmiers - CHI Poissy St Germain</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de sante</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78105</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saint-Germain-en-Laye</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >78 - Yvelines</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.08577</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8983</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_141">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ESMAE</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Autre etablissement du superieur</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75017</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.0715438</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8958212</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_142">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lycee Louise Michel</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lycee GT</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93000</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bobigny</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >93 - Seine-Saint-Denis</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.44155</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.9023</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_143">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut de formation sociale des Yvelines</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole du secteur social</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78000</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Versailles</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >78 - Yvelines</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.1235</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.817</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_144">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >UFR des sciences</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unite de formation et de recherche</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91405</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Orsay</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >91 - Essonne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.1711241</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.7022908</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_145">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CFA CEFLU Formations Immobilières</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centre de formation d'apprentis</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75009</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.33384</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8806</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_146">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut superieur de marketing du luxe</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de gestion et de commerce</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92400</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Courbevoie</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >92 - Hauts-de-Seine</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.2530972</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8899319</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_147">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Institut catholique d'arts et metiers - site de Paris-Senart - ICAM ouvert</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole d'ingenieurs</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77127</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lieusaint</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >77 - Seine-et-Marne</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.5382333993912</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.613562040293</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_148">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole polytechnique universitaire de Sorbonne Universite</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole d'ingenieurs</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75252</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.35445</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8466</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_149">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Departement d'etudes orientales</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unite de formation et de recherche</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75012</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.354249</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.840195</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_150">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Beaux-arts de Paris</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole d'art</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75006</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.33445</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8564</latitude>
+  </IDF_Univ>
+  <IDF_Univ rdf:ID="IDF_Univ_Individual_151">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Trans-Faire</nom>
+    <type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ecole de formation sportive</type>
+    <CP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75010</CP>
+    <commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paris</commune>
+    <dep rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >75 - Paris</dep>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >2.3480172</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >48.8720715</latitude>
+  </IDF_Univ>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 1.3, Build 225.4)  http://protege.stanford.edu -->
